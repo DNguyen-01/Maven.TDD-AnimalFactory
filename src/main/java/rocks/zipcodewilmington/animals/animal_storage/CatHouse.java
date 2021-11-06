@@ -15,7 +15,7 @@ public class CatHouse {
 
     public static void remove(Integer id) {
         catHouse.removeAnimalById(id);
-    }
+    } //the two remove overloads the test, allows you to differentiate between the two
 
     public static void remove(Cat cat) {
         catHouse.removeAnimal(cat);
